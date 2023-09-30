@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AACI</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="body">
+
+        <header class="header_login">
+            <div class="header_login_container">
+                <a href="./index.html">
+                    <img class="header_logo_login" src="./images/logonav.webp" alt="logo">
+                </a>
+            </div>
+        </header>
+    
+        <main class="container">
+            <div class="container_primary">
+                <div class="container_body">
+                    <div class="container_content">
+                        <div class="container_login">
+                            <p>Login</p>
+                        </div>
+                        <div class="container_form">
+                            <form id="my_form">
+                                <div class="container_form_document">
+                                    <label class="dni">Número de Documento</label>
+                                    <input type="text" class="input_text" id="input_text" required>
+                                </div>
+                                <div class="container_form_document">
+                                    <label class="dni_repeat">Reingrese Documento</label>
+                                    <input type="text" class="input_text" id="input_confir" required>
+                                </div>
+                                <p id="error" class="error"></p>
+                                <div class="btn_submit">
+                                    <input type="submit" id="btn" value="Login">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

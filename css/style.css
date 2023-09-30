@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;500;600;700;800&display=swap');
+
+body{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header_principal{
+    padding-top: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col_text{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header_principal .text_primary{
+    text-align: center;
+    margin-top: 0;
+    color: #636b6f;
+    font-size: 18px;
+}
+
+.col_btn{
+    margin-top: 1.6rem;
+}
+
+.btn{
+    padding: .65rem .88rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.btn_primary{
+    color: #fff;
+    background-color: #3490dc;
+    transition: all .3s ease-in-out;
+}
+
+.btn_primary:hover{
+    background-color: #2870aa;
+}
+
+/* LOGIN */
+
+.header_login{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .65rem;
+    padding-top: .6rem;
+    padding-inline: 5.3rem;
+    border-bottom: 3px solid rgba(0, 0, 0, .04);
+}
+
+.header_login .header_logo_login{
+    width: 225px;
+    cursor: pointer;
+}
+
+.header_login .header_login_container{
+    margin-top: .2rem;
+}
+
+.container{
+    height: 75vh;
+    position: relative;
+    margin-top: 0;
+    padding-top: 1.5rem;
+    background-color: #f8fafc;
+}
+
+.container_primary{
+    margin-inline: 8rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container_body{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container_content{
+    width: 73%;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+.container_primary .container_login{
+    background-color: rgba(0, 0, 0, .03);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.container_login p{
+    margin: 0;
+    padding: .9rem 1.2rem;
+}
+
+.container_primary p,
+.container_form > *{
+    position: relative;
+    font-family: sans-serif;
+    color: #42464b;
+    font-size: .9rem;
+}
+
+.container_primary .container_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    flex: 1 1 auto;
+    padding: 1.25rem 5rem;
+}
+
+.container_form .container_form_document{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container_form_document .dni{
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+.container_form_document .dni_repeat{
+    padding-left: 5.5px;
+}
+
+.container_form .input_text{
+    width: 55%;
+    padding: .375rem .75rem;
+    line-height: 1.6;
+    border: 1px solid #d7dadc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container_form .input_text:focus{
+    border: 1.2px solid #3490dc;
+}
+
+.container_form .btn_submit{
+    display: flex;
+    justify-content: center;
+    padding-right: 9rem;
+}
+
+.container_form input[type="submit"]{
+    border: 0;
+    padding: .65rem .8rem;
+    background-color: #3490dc;
+    border-color: #3490dc;
+    color: #fff;
+    font-weight: 400;
+    font-size: .9rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.container_form input[type="submit"]:hover{
+    background-color: #2870aa;
+}
+
+.error{
+    font-weight: bold;
+}
